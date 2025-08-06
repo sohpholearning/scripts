@@ -1,1 +1,20 @@
 
+Task : Create a virtual reality script.
+Topic : Surface area of sphere  
+Context : Teach math concepts for high school students  
+Method : For each shape, show a short animation, flatten to 2d. 
+Then paint each section to calculate area
+Example script for Cylinder to use as basis:
+Visualization : life-sized cylinder hovering on the table. Optional : cylinder might fade in and rotate slowly. 
+Message : This is a cylinder – notice its two circular bases and the curved side.
+Visualization : Show 3D annotations. These labels float next to the cylinder   
+  - an arrow denoting the height (h) between the bases. Draw a line to highlight, and 
+  - a line on the base indicating the radius (r). for a few seconds to establish vocabulary. 
+Message : A cylinder is basically 2 circles + 1 rectangle rolled up. Now, watch as the cylinder’s surface is unwrapped!” 
+Action : Animation to convert cylinder as a flat 2D shape. The curved side splits along a vertical line (along the line drawn in previous visualization step) and unrolls into a rectangle, laid out in front of the student, while the top and bottom circles detach and float to either side of the rectangle.
+Message : Now let us calculate the surace area of each part. Use your controller to paint each surface. Color in the shapes to reveal their area formulas!. (review cheaper alternatives, for example use buttons to highlight and fill)
+Action : Player uses a VR brush to paint:
+  - Top Circle: When fully painted → “Area = πr²”
+  - Bottom Circle: “Area = πr²”
+  - Rectangle (Curved Surface): “Area = 2πr × h”
+Visualization when all three sections are complete : Total surface area is 2πr² + 2πrh. 
